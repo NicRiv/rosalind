@@ -25,3 +25,10 @@ Return: The slice of this string from indices a through b and c through d (with 
         inclusively. In other words, we should include elements s[b] and s[d] in our slice.
 """
 print('\n', 'Exercise three')
+Ai = 60
+Af = 62
+Bi = 83
+Bf = 94
+s = 'n6gU8Zp0B1I3k2D4McgObJM3DNfobLJ1XM16iAVgNBk7cIG4SZ8CxXglbxwxBoarebVP6YotwtoZaZSHfAQtaezanowskyiugXLLvIMafK1tbsKbPfVn3ERgsHd9nXwcx2RMmKmtmqwPC3hqwTwQDglwO7G0WVpomPL6SZq.'
+result3 = s[Ai:Af+1] + ' ' + s[Bi:Bf+1]
+print('-',result3,'-')
