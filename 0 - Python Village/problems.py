@@ -32,3 +32,21 @@ Bf = 94
 s = 'n6gU8Zp0B1I3k2D4McgObJM3DNfobLJ1XM16iAVgNBk7cIG4SZ8CxXglbxwxBoarebVP6YotwtoZaZSHfAQtaezanowskyiugXLLvIMafK1tbsKbPfVn3ERgsHd9nXwcx2RMmKmtmqwPC3hqwTwQDglwO7G0WVpomPL6SZq.'
 result3 = s[Ai:Af+1] + ' ' + s[Bi:Bf+1]
 print('-',result3,'-')
+
+#4 - Conditions and Loops
+"""
+Problem:
+Given: Two positive integers a and b (a<b<10000).
+
+Return: The sum of all odd integers from a through b, inclusively.
+"""
+print('\n', 'Exercise four')
+NUMBER_A = 4434
+NUMBER_B = 8671
+sum_of_odd_numbers = 0
+
+for i in range(NUMBER_A, NUMBER_B + 1):
+    if(i % 2 != 0):
+        sum_of_odd_numbers += i
+
+print(sum_of_odd_numbers)
