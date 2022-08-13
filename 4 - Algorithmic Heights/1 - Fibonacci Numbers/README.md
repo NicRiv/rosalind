@@ -1,0 +1,3 @@
+# Fibonacci Numbers
+
+The Fibonacci numbers grow almost as fast as the powers of 2: for example, F30 is over a million, and F100 is already 21 digits long! In general, Fn≈2^(0.694n). No other sequence of numbers has been studied as extensively, or applied to more fields: biology, demography, art, architecture, music, to name just a few. And, together with the powers of 2, it is computer science’s favorite sequence.
